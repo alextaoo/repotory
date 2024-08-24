@@ -63,6 +63,9 @@ results = model.train(data="yolo-dataset/yolo.yaml", epochs=2, imgsz=1080, batch
 从输出结果来看，经过两个训练周期后，模型的边界框损失、分类损失和防御性损失都有所下降，这表明模型在训练过程中学习了如何更好地预测边界框和分类。同时，模型的 mAP50 和 mAP50-95 指标也有所提高，这表明模型的整体性能有所提升
 
 
+参考资料
+1. YOLO指南：https://docs.ultralytics.com/guides/
+2. https://docs.ultralytics.com/quickstart/
 
 
 
